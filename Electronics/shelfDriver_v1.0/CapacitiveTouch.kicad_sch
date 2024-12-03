@@ -1,0 +1,2618 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5284b4d1-e562-4574-a270-2fd177a4fbaa")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CoE_Capacitor:100nF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CoF_Capacitor:C-0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.7112 0.7112)
+					)
+				)
+			)
+			(property "MFR. Part #" "CL05B104KB54PNC"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C307331"
+				(at 0 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap user"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100nF_1_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.9972)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.9972)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CoE_Capacitor:10nF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10nF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CoF_Capacitor:C-0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.7112 0.7112)
+					)
+				)
+			)
+			(property "MFR. Part #" "CL05B103KB5NNNC"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C15195"
+				(at 0 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap user"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10nF_1_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.9972)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.9972)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CoE_Capacitor:6.8pF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "6.8pF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CoF_Capacitor:C-0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 6.8pF C0G ±0.25pF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.7112 0.7112)
+					)
+				)
+			)
+			(property "MFR. Part #" "0402CG6R8C500NT"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C1576"
+				(at 0 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap user"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "6.8pF_1_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.9972)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.9972)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CoE_IntegratedCircuit:TTP233"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TTP233"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(property "Footprint" "CoF_SmallOutline:SOT-23-6"
+				(at 0.254 -26.924 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109061130_Tontek-Design-Tech-TTP233H-BA6_C2890349.pdf"
+				(at 0.254 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOT-23-6L Touch Sensors ROHS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR. Part #" "TTP233H-BA6"
+				(at 0.254 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C2890349"
+				(at 0.254 -21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SOT-23-6L Touch Sensors ROHS capacitive sense touch tactile"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TTP233_1_1"
+				(rectangle
+					(start -6.35 10.16)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "I"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "AHLB"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "TOG"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CoE_Resistor:0R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0R"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CoF_Resistor:R-0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "±1% 1/16W Thick Film Resistors 50V ±800ppm/℃ -55℃~+155℃ 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 0.7112 0.7112)
+					)
+				)
+			)
+			(property "MFR. Part #" "0402WGF0000TCE"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C17168"
+				(at 0 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor res user"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0R_1_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.6002)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.6002)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CoE_Resistor:10K"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10K"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CoF_Resistor:R-0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 0.7112 0.7112)
+					)
+				)
+			)
+			(property "MFR. Part #" "0402WGF1002TCE"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C25744"
+				(at 0 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor res user"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10K_1_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.6002)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.6002)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 123.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b3b75a6-8dcd-42aa-ae32-97f04383c34b")
+	)
+	(junction
+		(at 82.55 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec2c724-bee7-4bed-b85a-d2b9477d4f32")
+	)
+	(junction
+		(at 134.62 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "597dd56d-b641-49e9-ac07-26cebffcc17e")
+	)
+	(junction
+		(at 101.6 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77868641-2012-4eaf-beea-ef05fb252ac5")
+	)
+	(junction
+		(at 114.3 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8247664a-e6c5-42ed-9fda-d27c205b16b5")
+	)
+	(junction
+		(at 76.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e82a64-3d9b-431f-bfcf-ccddb015f7ad")
+	)
+	(junction
+		(at 82.55 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d93de8-aeba-4646-95a3-17c7b5abfe8f")
+	)
+	(junction
+		(at 76.2 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deb21d16-2cab-49f8-8628-363dac909c06")
+	)
+	(junction
+		(at 165.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa423ec-bcba-4634-b8f9-b3c3822fa7ed")
+	)
+	(junction
+		(at 123.19 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efe0ad3b-6951-495e-a3b8-ea964aedb071")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 76.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00614298-69a0-4df0-996e-69815776f65e")
+	)
+	(polyline
+		(pts
+			(xy 113.03 127) (xy 157.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05dc0dde-520e-4f7d-9ad6-cdecba170fca")
+	)
+	(wire
+		(pts
+			(xy 82.55 96.52) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096f3a03-2b1e-4605-9aef-434f10c43e3c")
+	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cd42f7-3e3b-4857-950b-3c41c2a12212")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149d9231-9157-4b54-924f-6986395dfed7")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15473175-2ea4-474b-a8f0-8278db5b5b98")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1819b0b8-fa75-4647-9ed3-9eeb603a5e05")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19690eda-ee0a-47af-a5f6-7e06b6efa235")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3f7362-23dd-4927-a405-ae50521201c5")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210de995-5c42-4c8c-9544-894860bef263")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2645df75-b7c4-4eee-8312-e8e554b4b8a9")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27350a13-edf2-4b1a-99fe-fbc3644c256d")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e0f9c3-213c-49d2-a60a-65d9289c01f3")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d43e80-27ef-4af1-b5de-7c9898a869c0")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429606e5-b37d-45b5-8e1c-dfa66181336b")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 82.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b76bc73-1f3f-400b-8fa2-31ef4895472e")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6192f32f-023f-4a5c-8e0f-abcd85c323c0")
+	)
+	(polyline
+		(pts
+			(xy 113.03 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cd1791-3a7d-4498-8f0a-740365159810")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697e7cbd-a902-46ff-abf6-228f3e32c6d5")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f493ec-52de-4fe6-bac0-db373336a67f")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d68d520-2410-404d-8b33-82b627490e98")
+	)
+	(polyline
+		(pts
+			(xy 119.38 111.76) (xy 119.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7267b0a6-201f-4a15-9ad6-cbd49558862e")
+	)
+	(polyline
+		(pts
+			(xy 113.03 119.38) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c112ea6-c819-44fd-befb-9ecb37b6f835")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0895ca0-77b2-4772-9dda-d8d4f8259974")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05ce104-7953-4dbe-87bd-4ad91e4458c3")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b818851d-1f3b-44ab-9660-e756cf55f3e2")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c199d532-33b7-4637-ae63-aa3f60cc4efe")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86ea29c-e9d0-46eb-a764-a6bba43674cd")
+	)
+	(wire
+		(pts
+			(xy 82.55 92.71) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9977bda-0d79-47b1-b6de-58f382c4a96a")
+	)
+	(wire
+		(pts
+			(xy 63.5 96.52) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb891e8d-535f-44c5-ac7f-9229fd4855e8")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bb8b07-4804-4fda-9cc6-581fb0ccd3c0")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7238449-b2a3-4a28-a785-13159f9a65fb")
+	)
+	(polyline
+		(pts
+			(xy 127 111.76) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23dd15e-a20c-4fe5-88f6-9f801fc45d84")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f4b7df-a15a-4987-a12b-a1a5b8ebbe39")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e778054d-e8b3-4511-863d-f6ea4dbdc8bd")
+	)
+	(polyline
+		(pts
+			(xy 113.03 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e933815a-8b6c-4969-a65a-4dc55d17681d")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc897d28-f5ac-44c6-b0e3-76b5ea2cde87")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe64792a-138a-423b-a316-18e182a18be6")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 123.19 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "001b6431-4d3a-4cfe-9064-6d89485da5c1")
+	)
+	(text "Direct output | CMOS active high"
+		(exclude_from_sim no)
+		(at 142.24 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13eab53f-bc1b-43b8-8a38-6db9ba897044")
+	)
+	(text "Toggle output | power on state = 0"
+		(exclude_from_sim no)
+		(at 142.24 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1eab4a0e-ace7-41a5-953b-54430192c60c")
+	)
+	(text "Direct output | CMOS active low"
+		(exclude_from_sim no)
+		(at 142.24 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27395ad5-7239-45b0-ae8f-4e8e3fabde94")
+	)
+	(text "The Behaviour of Pin-Q"
+		(exclude_from_sim no)
+		(at 142.24 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3aa34ec0-8dee-41ae-a4f2-9c988b5ad853")
+	)
+	(text "Toggle output | power on state = 1"
+		(exclude_from_sim no)
+		(at 142.24 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3cb7bf04-9330-4618-abaf-0e37dc6e18c9")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 123.19 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43f2a39e-3a71-4b65-a7be-d713f345c7c3")
+	)
+	(text "TOG"
+		(exclude_from_sim no)
+		(at 115.57 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4c798fea-4e4e-4361-8c00-6b09456b21df")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 115.57 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d942e23-939a-4cda-b241-03b27ff914f2")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 115.57 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dada864-4b51-4913-a60f-4bc7bddd6163")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 115.57 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0e462b4-e8b6-4e61-868d-f48e62198c2b")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 115.57 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a374070f-94c0-4438-876f-bc028f41b4e1")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 123.19 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aed877c6-c493-43b2-8b3e-24c691bb216d")
+	)
+	(text "AHLB"
+		(exclude_from_sim no)
+		(at 123.19 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cec83f93-ddff-413c-aad8-a614f053bb05")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 123.19 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8cf4cf0-d813-4de2-88e0-85adae04c758")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 63.5 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b11e339-0697-4b76-9324-6c584e607165")
+	)
+	(hierarchical_label "TouchOut"
+		(shape output)
+		(at 177.8 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "604a66d9-24b4-4e65-8d89-29e94bff10cc")
+	)
+	(hierarchical_label "Return"
+		(shape input)
+		(at 63.5 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb324ce5-87bc-407e-b0e9-29dfa5dc1051")
+	)
+	(symbol
+		(lib_id "CoE_Capacitor:10nF")
+		(at 82.55 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a40b29-9494-4e8d-a166-499326a8670c")
+		(property "Reference" "C52"
+			(at 83.185 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 83.185 91.44 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CoF_Capacitor:C-0402"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "MFR. Part #" "CL05B103KB5NNNC"
+			(at 82.55 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15195"
+			(at 82.55 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "122dc13b-1b8c-472c-8581-a261b512d1e7")
+		)
+		(pin "1"
+			(uuid "71153568-7a5c-4a89-94ed-1e9b11f7ca4e")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoE_Resistor:10K")
+		(at 165.1 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12c43b0f-1a74-4c06-977d-cc37a19772e7")
+		(property "Reference" "R39"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CoF_Resistor:R-0402"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 165.1 82.55 90)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "MFR. Part #" "0402WGF1002TCE"
+			(at 165.1 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 165.1 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b16c87e-eac1-45d9-882f-e12ba574a6eb")
+		)
+		(pin "2"
+			(uuid "731b1986-79df-4de1-939f-34bd9439ce8b")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 101.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "19d6935c-6dc9-40a0-915d-4e8f005b3be0")
+		(property "Reference" "TOUCH1"
+			(at 100.838 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CoF_Connector:SolderPt_2.5x4mm"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d60c3e07-3fb3-4ea7-94bd-5f5af0321018")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "TOUCH1")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "TOUCH2")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "TOUCH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoE_Resistor:0R")
+		(at 130.81 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a9fe27-8c16-4c99-9efa-694da6751d5f")
+		(property "Reference" "R36"
+			(at 128.27 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 133.35 92.71 90)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CoF_Resistor:R-0402"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±800ppm/℃ -55℃~+155℃ 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 130.81 91.44 90)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "MFR. Part #" "0402WGF0000TCE"
+			(at 141.605 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17168"
+			(at 144.145 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e586252-99b5-4769-ac02-46e55d07079a")
+		)
+		(pin "2"
+			(uuid "101b85b3-e29f-4715-8162-1dd64ac906a0")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoE_Capacitor:100nF")
+		(at 76.2 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "470ccd89-33b3-4d20-9acb-9e14dc39a5bd")
+		(property "Reference" "C49"
+			(at 76.835 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.835 91.44 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CoF_Capacitor:C-0402"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "MFR. Part #" "CL05B104KB54PNC"
+			(at 76.2 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 76.2 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7f07993-14cd-452d-9019-2b23e1035428")
+		)
+		(pin "1"
+			(uuid "1659c80b-cbd6-4e16-ad32-0a7202d4ff4b")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoE_IntegratedCircuit:TTP233")
+		(at 146.05 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "713422cd-8da7-4505-91e6-2f42409165b6")
+		(property "Reference" "U4"
+			(at 146.05 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TTP233"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" "CoF_SmallOutline:SOT-23-6"
+			(at 146.304 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109061130_Tontek-Design-Tech-TTP233H-BA6_C2890349.pdf"
+			(at 146.304 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-23-6L Touch Sensors ROHS"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR. Part #" "TTP233H-BA6"
+			(at 146.304 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2890349"
+			(at 146.304 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4fde47-14d7-4a06-9c6e-c9737396e024")
+		)
+		(pin "3"
+			(uuid "9fc36e82-709e-4f93-8465-15af91013d80")
+		)
+		(pin "2"
+			(uuid "b7c5ce88-d1ac-408d-a8b3-77396f8bef33")
+		)
+		(pin "5"
+			(uuid "541b3f49-b6be-4720-9167-9215f32eb5c9")
+		)
+		(pin "6"
+			(uuid "53e7a57b-cf7c-49a0-828c-83af9a9791d8")
+		)
+		(pin "4"
+			(uuid "93a8a11f-af30-4f46-8b7d-041984d7bde6")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoE_Capacitor:6.8pF")
+		(at 107.95 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b301c4ae-22c7-4bc1-8762-6cf188175e19")
+		(property "Reference" "C46"
+			(at 106.68 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8pF"
+			(at 109.22 91.44 90)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CoF_Capacitor:C-0402"
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 6.8pF C0G ±0.25pF 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "MFR. Part #" "0402CG6R8C500NT"
+			(at 118.745 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1576"
+			(at 121.285 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed74036d-85f3-41db-989e-50e3ce0b9805")
+		)
+		(pin "1"
+			(uuid "84ef8af9-c2a1-4c3a-9334-2c299f3d7ed7")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoE_Resistor:0R")
+		(at 130.81 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f22112db-3f9d-479f-a4de-598bbe11be97")
+		(property "Reference" "R33"
+			(at 128.27 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 133.35 85.09 90)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CoF_Resistor:R-0402"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±800ppm/℃ -55℃~+155℃ 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 130.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 130.81 86.36 90)
+			(effects
+				(font
+					(size 0.7112 0.7112)
+				)
+			)
+		)
+		(property "MFR. Part #" "0402WGF0000TCE"
+			(at 141.605 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17168"
+			(at 144.145 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7753038-8c37-4d95-a6fe-a1bfef01599c")
+		)
+		(pin "2"
+			(uuid "03f48ada-f188-40d7-895d-ae56b0680eae")
+		)
+		(instances
+			(project "shelfDriver_v1.0"
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/26a422db-66c4-4260-8850-1d842589c810"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/585870f4-7141-4e7d-a878-f0de8df0a2c1"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/6a2bfdab-d8e5-400d-b421-790b875a24fd/cf39be7c-1e6b-4757-b701-0740b4c58ec7"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
